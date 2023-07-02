@@ -129,6 +129,7 @@ public:
   static constexpr auto SETTING_VIDEOPLAYER_LIMITGUIUPDATE = "videoplayer.limitguiupdate";
   static constexpr auto SETTING_VIDEOPLAYER_SUPPORTMVC = "videoplayer.supportmvc";
   static constexpr auto SETTING_VIDEOPLAYER_CONVERTDOVI = "videoplayer.convertdovi";
+  static constexpr auto SETTING_VIDEOPLAYER_ALLOWEDHDRTYPES = "videoplayer.allowedhdrtypes";
   static constexpr auto SETTING_MYVIDEOS_SELECTACTION = "myvideos.selectaction";
   static constexpr auto SETTING_MYVIDEOS_USETAGS = "myvideos.usetags";
   static constexpr auto SETTING_MYVIDEOS_EXTRACTFLAGS = "myvideos.extractflags";
@@ -479,6 +480,10 @@ public:
   static constexpr int SETTING_AUTOPLAYNEXT_EPISODES = 2;
   static constexpr int SETTING_AUTOPLAYNEXT_MOVIES = 3;
   static constexpr int SETTING_AUTOPLAYNEXT_UNCATEGORIZED = 4;
+
+  // values for SETTING_VIDEOPLAYER_ALLOWEDHDRTYPES
+  static const int VIDEOPLAYER_ALLOWED_HDR_TYPE_HDR10PLUS = 0;
+  static const int VIDEOPLAYER_ALLOWED_HDR_TYPE_DOLBY_VISION = 1;
 
   /*!
    \brief Creates a new settings wrapper around a new settings manager.
