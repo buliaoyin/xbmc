@@ -23453,3 +23453,15 @@ msgstr ""
 msgctxt "#39194"
 msgid "Enables advanced DXVA upscaler using NVIDIA \"RTX Video Super Resolution\" or \"Intel Video Super Resolution\".[CR]Used when video source is 1080p or less (progressive only) and source resolution is lower than display resolution.[CR]It's only available on specific hardware: NVIDIA RTX 40x, RTX 30x and Intel Arc A770, A750."
 msgstr ""
+
+#. Title of Dolby Vision RPU conversion setting
+#: system/settings/settings.xml
+msgctxt "#39195"
+msgid "Dolby Vision compatibility mode"
+msgstr ""
+
+#. Help text for setting "Convert Dolby Vision for compatibility" of label #39195
+#: system/settings/settings.xml
+msgctxt "#39196"
+msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
+msgstr ""
