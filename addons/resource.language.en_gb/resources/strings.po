@@ -23478,38 +23478,40 @@ msgstr ""
 #: system/settings/settings.xml
 msgctxt "#39195"
 msgid "Enable this option for the best picture quality. Disabling reduces the load on resource-limited systems."
+msgstr ""
+
 #. Title of Dolby Vision RPU conversion setting
 #: system/settings/settings.xml
-msgctxt "#39195"
+msgctxt "#39196"
 msgid "Dolby Vision compatibility mode"
 msgstr ""
 
 #. Help text for setting "Convert Dolby Vision for compatibility" of label #39195
 #: system/settings/settings.xml
-msgctxt "#39196"
+msgctxt "#39197"
 msgid "If enabled, Dolby Vision profile 7 will be converted to profile 8.1, which is more commonly supported by devices. Enable if your device supports Dolby Vision, but has issues with some videos."
 msgstr ""
 
 #. Title of allowed HDR types setting
 #: system/settings/settings.xml
-msgctxt "#39197"
+msgctxt "#39198"
 msgid "Allowed HDR types"
 msgstr ""
 
 #. Help text for setting "Allowed HDR types" of label #39197
 #: system/settings/settings.xml
-msgctxt "#39198"
+msgctxt "#39199"
 msgid "Alters the video bitstream to remove HDR10+ or Dolby Vision metadata"
 msgstr ""
 
 #. Label of HDR10+ option for setting "Allowed HDR types"
 #: system/settings/settings.xml
-msgctxt "#39199"
+msgctxt "#39200"
 msgid "HDR10+"
 msgstr ""
 
 #. Label of Dolby Vision option for setting "Allowed HDR types" of label #39199
 #: system/settings/settings.xml
-msgctxt "#39200"
+msgctxt "#39201"
 msgid "Dolby Vision"
 msgstr ""
